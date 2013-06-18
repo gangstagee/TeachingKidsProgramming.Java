@@ -8,13 +8,14 @@ public class SimpleSquare
   public static void main(String[] args) throws Exception
   {
     Tortoise.show();
-    //  Make the tortoise move as fast as possible --#6
     Tortoise.setSpeed(8);
-    for (int i = 1; i <= 4; i++)
+    int sides = 4;
+    for (int i = 1; i <= sides; i++)
     {
       Tortoise.move(50);
       Tortoise.setPenColor(Colors.Blues.Blue);
-      Tortoise.turn(90);
+      Tortoise.setPenWidth(2);
+      Tortoise.turn(360 / sides);
     }
   }
 }
