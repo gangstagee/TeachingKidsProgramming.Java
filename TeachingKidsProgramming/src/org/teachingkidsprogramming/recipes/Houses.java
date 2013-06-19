@@ -35,7 +35,6 @@ public class Houses
     Tortoise.turn(90);
     //move 10
     Tortoise.move(50);
-    //turn 90 left
     Tortoise.turn(90 + 45);
     Tortoise.move(-10);
     Tortoise.turn(-90);
