@@ -8,13 +8,10 @@ public class DigiFlower
 {
   public static void main(String[] args)
   {
-    //    Show the tortoise --#1
     Tortoise.show();
-    //    Make the tortoise move as fast as possible --#7
     Tortoise.setSpeed(10);
     //    Make the background silver --#8
     Tortoise.getBackgroundWindow();
-    //    Make the line the tortoise draws 3 pixels wide --#20
     Tortoise.setPenWidth(3);
     for (int i = 1; i <= 15; i++)
     {
