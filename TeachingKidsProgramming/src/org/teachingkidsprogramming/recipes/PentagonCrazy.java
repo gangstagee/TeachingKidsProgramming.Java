@@ -15,10 +15,9 @@ public class PentagonCrazy
     for (int i = 1; i <= 200; i++)
     {
       adjustPen();
-      Tortoise.move(70);
-      int degrees = 360 / 5;
-      Tortoise.turn(degrees);
-      Tortoise.turn(degrees + 1);
+      Tortoise.move(i);
+      Tortoise.turn(360 / 5);
+      Tortoise.turn(1);
     }
   }
   private static void adjustPen()

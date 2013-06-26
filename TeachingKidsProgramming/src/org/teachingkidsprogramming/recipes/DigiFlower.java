@@ -10,7 +10,7 @@ public class DigiFlower
   {
     Tortoise.show();
     Tortoise.setSpeed(10);
-    Tortoise.getBackgroundWindow();
+    Tortoise.getBackgroundWindow().setBackground(Colors.Grays.Silver);
     Tortoise.setPenWidth(3);
     for (int i = 1; i <= 15; i++)
     {
